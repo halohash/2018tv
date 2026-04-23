@@ -14745,42 +14745,42 @@ body.full-animation .topic-onboarding .main #dialog-ok-button.disabled {
 
 @font-face {
     font-family: 'Cutive Mono';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/CutiveMono-Regular.woff") format("woff")
+    src: url("/CutiveMono-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'PT Mono';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/PTM55FT.woff") format("woff")
+    src: url("/PTM55FT.woff") format("woff")
 }
 
 @font-face {
     font-family: 'PT Serif Caption';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/PT_Serif-Caption-Web-Regular.woff") format("woff")
+    src: url("/PT_Serif-Caption-Web-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'PT Sans Caption';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/PT_Sans-Caption-Web-Regular.woff") format("woff")
+    src: url("/PT_Sans-Caption-Web-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'Handlee';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/Handlee-Regular.woff") format("woff")
+    src: url("/Handlee-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'Dancing Script';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/DancingScript-Regular.woff") format("woff")
+    src: url("/DancingScript-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'Marcellus SC';
-    src: url("/web/20181225225517im_/https://www.youtube.com/s/tv/fonts/MarcellusSC-Regular.woff") format("woff")
+    src: url("/MarcellusSC-Regular.woff") format("woff")
 }
 
 @font-face {
     font-family: 'Carrois Gothic SC';
-    src: local("CarroisGothicSC-Regular"),url("/web/20181225225517im_/https://www.youtube.com/s/tv/html5/misc/fonts/CarroisGothicSC-Regular.ttf") format("truetype")
+    src: local("CarroisGothicSC-Regular"),url("/CarroisGothicSC-Regular.ttf") format("truetype")
 }
 
 .pivot-post-play.mdx {
