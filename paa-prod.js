@@ -21341,7 +21341,7 @@
         if (this.QE)
             return this.QE.baseUrl;
         var a = ws[this.kJ.NH];
-        return void 0 !== a ? a : "ppg" === this.kJ.NH ? "https://" + this.kJ.CPa : "https://tv36.pages.dev/youtubei/v1"
+        return void 0 !== a ? a : "ppg" === this.kJ.NH ? "https://" + this.kJ.CPa : "https://hashpie.pages.dev/youtubei/v1"
     }
     ;
     d.Xn = function(a, b) {
