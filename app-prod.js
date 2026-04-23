@@ -18885,7 +18885,7 @@
             k.Jm ? (h = Eb("url('%smisc/fonts/%s') format('%s')", b, k.file, k.format),
             k.local && (h = Eb("local('%s'), %s", k.local, h)),
             h = wr(k, h),
-            g.add("@font-face", h)) : (h = Eb("url('%s/img/%s') format('%s')", h, k.file, k.format),
+            g.add("@font-face", h)) : (h = Eb("url('/%s') format('%s')", h, k.file, k.format),
             h = wr(k, h),
             g.add("@font-face", h));
             h = {
@@ -59348,7 +59348,7 @@ Dual licensed under the MIT and GPL licenses.
             label: a.C("[[Guest|A button for selecting the guest account on a device]]"),
             content: e,
             iconText: "",
-            iconUrl: "../img/avatar-guest_48.png",
+            iconUrl: "/avatar-guest_48.png",
             trackingParams: "",
             showCheck: void 0 === x
         }));
@@ -63837,7 +63837,7 @@ Dual licensed under the MIT and GPL licenses.
                 a.Gk(null, v);
                 k()
             }
-            ,new tP("../img/avatar-guest_48.png",h)))
+            ,new tP("/avatar-guest_48.png",h)))
         }
         x.push(new fM(b.C("[[Add Account|Label telling the user that clicking on this button will let them add another account to YouTube]]"),function() {
             e.close();
@@ -66845,7 +66845,7 @@ Dual licensed under the MIT and GPL licenses.
             displayTimeout: 5E3,
             message: b.C("[[Account removed|Toast message indicating that the user has successfully removed an account.]]"),
             subMessage: b.C("[[You're now using YouTube signed out. Sign in to personalize recommendations.|Tells the user that they are not signed in to YouTube and advises them to sign in to get personalized recommendations]]"),
-            opt_userAvatarUri: "../img/avatar-guest_216.png",
+            opt_userAvatarUri: "/avatar-guest_216.png",
             opt_hasDisplayAnim: !0
         });
         a.Kc(b)
@@ -66949,7 +66949,7 @@ Dual licensed under the MIT and GPL licenses.
             displayTimeout: 5E3,
             message: b.C("[[You're not signed in to YouTube yet|Headline for dialog which encourages a user to login.]]"),
             subMessage: b.C("[[Don't miss your personalized recommendations!|Highlights the personalization benefits to logging in to YouTube.]]"),
-            opt_userAvatarUri: "../img/avatar-guest_216.png",
+            opt_userAvatarUri: "/avatar-guest_216.png",
             opt_hasDisplayAnim: !0
         });
         e(b, "surface");
@@ -76723,7 +76723,8 @@ Dual licensed under the MIT and GPL licenses.
             return !1;
         g.set("sign-in-onboarding-dialog-shown-timestamp", c.ua());
         a = new lF(e,null);
-        c = new oF("../img/warm_welcome.png","warm-welcome-image");
+        /* c = new oF("/warm_welcome.png","warm-welcome-image"); */
+        c = new oF("/welpreview.png","warm-welcome-image");
         a.Ph = new tY(c);
         b.open(a);
         return !0
@@ -90358,7 +90359,7 @@ Dual licensed under the MIT and GPL licenses.
         var g = new uY(a,"text");
         c = "youtu.be/" + c;
         var h = new uY(c,"emphasize")
-          , k = new oF("../img/report.png","report-example");
+          , k = new oF("/report.png","report-example");
         e = new lF(new WM(e,[g, h, k]));
         e.ariaLabel = [f, a, c].join(" ");
         b.open(e)
