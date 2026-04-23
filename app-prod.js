@@ -18882,7 +18882,7 @@
             var g = a
               , h = c
               , k = e[f];
-            k.Jm ? (h = Eb("url('%smisc/fonts/%s') format('%s')", b, k.file, k.format),
+            k.Jm ? (h = Eb("url('%s/%s') format('%s')", b, k.file, k.format),
             k.local && (h = Eb("local('%s'), %s", k.local, h)),
             h = wr(k, h),
             g.add("@font-face", h)) : (h = Eb("url('/%s') format('%s')", h, k.file, k.format),
