@@ -39661,7 +39661,7 @@
     ;
     d.aha = function(a, b, c) {
         var e = this.Zda[a.oAuthClientIdName];
-        a = new gq("POST","/o/oauth2/token",null,{
+        a = new gq("POST","https://accounts.google.com/o/oauth2/token",null,{
             client_id: e.clientId,
             client_secret: e.Nt,
             refresh_token: a.refreshToken,
@@ -39733,7 +39733,7 @@
         m.Td(function() {
             h.wN(c)
         });
-        k = new gq("POST","/o/oauth2/device/code",null,k);
+        k = new gq("POST","https://accounts.google.com/o/oauth2/device/code",null,k);
         m.send(k);
         return function() {
             h.wN(f)
@@ -39758,7 +39758,7 @@
             code: a,
             grant_type: "http://oauth.net/grant_type/device/1.0"
         };
-        g = new gq("POST","/o/oauth2/token",null,g);
+        g = new gq("POST","https://accounts.google.com/o/oauth2/token",null,g);
         var h = this.Oi();
         h.kd(function(g) {
             f.XPa(a, b, c, g, e)
@@ -45267,7 +45267,7 @@
         return new Rj(function(g, h) {
             var k = c[f.oAuthClientIdName];
             if (k) {
-                k = new gq("POST","/o/oauth2/token",null,{
+                k = new gq("POST","https://accounts.google.com/o/oauth2/token",null,{
                     client_id: k.clientId,
                     client_secret: k.Nt,
                     refresh_token: f.refreshToken,
@@ -45286,7 +45286,7 @@
     }
     E(aG, ["buildAuthorizedAccessCredential", "xhrRequestFactory", "oAuthClientProfiles"]);
     function bG(a, b) {
-        b && (b = new gq("POST","/o/oauth2/revoke",null,{
+        b && (b = new gq("POST","https://accounts.google.com/o/oauth2/revoke",null,{
             token: b
         }),
         a().send(b))
@@ -45481,7 +45481,7 @@
         var f = a();
         f.kd(c);
         f.Td(e);
-        a = new gq("POST","/o/oauth2/token",null,b);
+        a = new gq("POST","https://accounts.google.com/o/oauth2/token",null,b);
         f.send(a);
         return function() {
             f.abort()
@@ -45503,7 +45503,7 @@
             e.Td(function(a) {
                 b(a)
             });
-            var f = new gq("POST","/o/oauth2/device/code",null,c);
+            var f = new gq("POST","https://accounts.google.com/o/oauth2/device/code",null,c);
             e.send(f)
         }
         )).Mg(function(a) {
