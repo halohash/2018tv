@@ -21340,7 +21340,7 @@
         if (this.HE)
             return this.HE.baseUrl;
         var a = ws[this.dJ.DH];
-        return void 0 !== a ? a : "ppg" === this.dJ.DH ? "https://" + this.dJ.XOa : "https://tv36.pages.dev/invidious/youtubei/v1"
+        return localStorage.getItem("innertubeserver") || "https://tv36.pages.dev/invidious/youtubei/v1"
     }
     ;
     d.Qn = function(a, b) {
