@@ -19710,10 +19710,12 @@
     d.getPlayerType = function() {
         if (this.Ja)
             return 2;
+
+        
         switch (this.Wea) {
         case 1:
             var a = this.Gb();
-            return a ? a.getPresentingPlayerType() : void 0;
+            return void 0;
         case 2:
             break;
         case 0:
@@ -21338,7 +21340,7 @@
         if (this.HE)
             return this.HE.baseUrl;
         var a = ws[this.dJ.DH];
-        return void 0 !== a ? a : "ppg" === this.dJ.DH ? "https://" + this.dJ.XOa : "https://tv36.pages.dev/youtubei/v1"
+        return void 0 !== a ? a : "ppg" === this.dJ.DH ? "https://" + this.dJ.XOa : "https://tv36.pages.dev/invidious/youtubei/v1"
     }
     ;
     d.Qn = function(a, b) {
@@ -86811,8 +86813,8 @@ Dual licensed under the MIT and GPL licenses.
                 b("ypcGetOfferDetailsService", "/ypc/get_offer_details");
                 b("ypcGrantRewardService", "/ypc/grant_reward");
                 a.add("suggestionService", new J(new I(LE,{
-                    baseUrl: "//clients1.google.com",
-                    client: "youtube-lr",
+                    baseUrl: "https://proxy.cors.sh/https://clients1.google.com",
+                    client: "youtube",
                     dataSource: "yt",
                     id: "suggestionService",
                     path: "/complete/search"
