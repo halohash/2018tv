@@ -217,7 +217,7 @@ const isXbox = /Xbox/i.test(ua)
                 "xsrf_token": "QUFFLUhqazA5cHRNUHZVTTZwbF9UWUNmTlp1N3VPeUhhUXxBQ3Jtc0tuQXNQcHEyRE9IRWgyRnFZRWRwTXEwcTZlNE5ZV3Vnd2xaZE9GZ19XcXVYT3RqZ1FHSEJhRVZWdXlNSGFiRXhOUHU2cDJUS2R5X0YyQ29IYnZ4c2ZTNFgzSHdOTnBtZUs3bTlVRDRRUFhlYTdIZlBYeHlsenMzODIwMlJjNy1pVjhhRlR2RjJUdmNYbTF4SnZVS0RhZ0hWc2JUcHc=",
                 "visitor_data": "CgtqcW1oWFZiZFZnYyiS6JThBQ%3D%3D",
                 "frameworks_field_trial": null,
-                "model": "bitches"
+                "model": "bing",
                 "flags": {
                     "play_all_button_visible": false,
                     "inline_playback_all_browse": false,
@@ -503,7 +503,11 @@ const isXbox = /Xbox/i.test(ua)
                 "tv_css": localStorage.getItem("themeurl") || "/airstream-prod-css.css",
                 "use_reset_logic": false
             };
-
+if (isVR) {
+  window.environment.model = "vr";
+} else if (isXbox) {
+window.environment.model = "nonvr";
+}
         </script>
         <script>
             if (window.ytcsi) {
