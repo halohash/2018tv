@@ -92744,7 +92744,8 @@ Dual licensed under the MIT and GPL licenses.
         ro({
             xE: a,
             mpa: vW(g)
-        }, c7, xo, e, f, b, d7)
+        }, c7, xo, e, f, b, d7);
+        window.document.title = "TV49 Public Beta";
     }, void 0);
 }
 ).call(this);
