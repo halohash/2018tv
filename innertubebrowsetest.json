@@ -1,0 +1,559 @@
+{
+  "contents": {
+    "tvBrowseRenderer": {
+      "content": {
+        "tvSurfaceContentRenderer": {
+          "content": {
+            "sectionListRenderer": {
+              "contents": [
+                {
+                  "shelfRenderer": {
+                    "title": {
+                      "runs": [
+                        {
+                          "text": "TILE TESTING"
+                        }
+                      ]
+                    },
+                    "content": {
+                      "horizontalListRenderer": {
+                        "items": [
+                          {
+                            "gridVideoRenderer": {
+                              "videoId": "U7QyqBBbabg",
+                              "title": {
+                                "runs": [
+                                  {
+                                    "text": "VIDEO LIVE 24/7"
+                                  }
+                                ]
+                              },
+                              "shortBylineText": {
+                                "runs": [
+                                  {
+                                    "text": "shortBylineText"
+                                  }
+                                ]
+                              },
+                              "publishedTimeText": {
+                                "runs": [
+                                  {
+                                    "text": "April 1, 2016"
+                                  }
+                                ]
+                              },
+                              "viewCountText": {
+                                "runs": [
+                                  {
+                                    "text": "-1 views"
+                                  }
+                                ]
+                              },
+                              "lengthText": {
+                                "runs": [
+                                  {
+                                    "text": "0:00"
+                                  }
+                                ]
+                              },
+                              "thumbnail": {
+                                "thumbnails": [
+                                  {
+                                    "url": "https://tv49.pages.dev/default_bg.png",
+                                    "width": 320,
+                                    "height": 180
+                                  }
+                                ]
+                              },
+                              "channelThumbnail": {
+                                "thumbnails": [
+                                  {
+                                    "url": "https://tv49.pages.dev/default_bg.png",
+                                    "width": 68,
+                                    "height": 68
+                                  }
+                                ]
+                              },
+                              "thumbnailOverlays": [
+                                {
+                                  "thumbnailOverlayTimeStatusRenderer": {
+                                    "text": {
+                                      "runs": [
+                                        {
+                                          "text": "LIVE"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ],
+                              "navigationEndpoint": {
+                                "clickTrackingParams": "CAAQxjciEw==",
+                                "browseEndpoint": {
+                                  "browseId": ""
+                                }
+                              },
+                                "badges":[
+                                                              {
+                                                                 "liveBadge":{
+                                                                    "label":{
+                                                                       "runs":[
+                                                                          {
+                                                                             "text":"LIVE"
+                                                                          }
+                                                                       ]
+                                                                    }
+                                                                 },
+                                                                "liveChatAuthorBadgeRenderer":{
+                                                                    "label":{
+                                                                       "runs":[
+                                                                          {
+                                                                             "text":"liveChatAuthorBadgeRenderer"
+                                                                          }
+                                                                       ]
+                                                                    }
+                                                                 }
+                                                              }
+                                                           ]
+                              
+                            }
+                          },{
+                            "gridVideoRenderer": {
+                              "videoId": "U7QyqBBbabg",
+                              "title": {
+                                "runs": [
+                                  {
+                                    "text": "VIDEO NOT LIVE"
+                                  }
+                                ]
+                              },
+                              "shortBylineText": {
+                                "runs": [
+                                  {
+                                    "text": "shortBylineText"
+                                  }
+                                ]
+                              },
+                              "publishedTimeText": {
+                                "runs": [
+                                  {
+                                    "text": "March 1, 2017"
+                                  }
+                                ]
+                              },
+                              "viewCountText": {
+                                "runs": [
+                                  {
+                                    "text": "-1 views"
+                                  }
+                                ]
+                              },
+                              "lengthText": {
+                                "runs": [
+                                  {
+                                    "text": "0:01"
+                                  }
+                                ]
+                              },
+                              "thumbnail": {
+                                "thumbnails": [
+                                  {
+                                    "url": "https://tv49.pages.dev/default_bg.png",
+                                    "width": 320,
+                                    "height": 180
+                                  }
+                                ]
+                              },
+                              "channelThumbnail": {
+                                "thumbnails": [
+                                  {
+                                    "url": "https://tv49.pages.dev/default_bg.png",
+                                    "width": 68,
+                                    "height": 68
+                                  }
+                                ]
+                              },
+                              "thumbnailOverlays": [
+                                {
+                                  "thumbnailOverlayTimeStatusRenderer": {
+                                    "text": {
+                                      "runs": [
+                                        {
+                                          "text": "0:01"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ],
+                              "navigationEndpoint": {
+                                "clickTrackingParams": "CAAQxjciEw==",
+                                "browseEndpoint": {
+                                  "browseId": ""
+                                }
+                              }
+                              
+                            }
+                          },{
+                                                        "gridChannelRenderer":{
+                                                           "channelId":"UCxboxlive",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/browser-youtube.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/browser-youtube.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/browser-youtube.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "subscriberCountText":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"1 subscriber"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"shortBylineText"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "topicRenderer":{
+                                                           "channelId":"FEwhat_to_watch",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "subscriberCountText":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"1 subscriber"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"TOPIC TITLE"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "tvPurchaseItemRenderer":{
+                                                           "channelId":"FEwhat_to_watch",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "subscriberCountText":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"1 subscriber"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"TV PURCHASE TITLE"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "tvMusicVideoRenderer":{
+                                                           "channelId":"FEwhat_to_watch",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "subscriberCountText":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"1 subscriber"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"MUSIC TITLE"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "gridShowRenderer":{
+                                                           "channelId":"FEwhat_to_watch",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "subscriberCountText":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"1 subscriber"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"SHOW TITLE"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+  "gridPlaylistRenderer": {
+    "longBylineText": {
+      "runs": [
+        {
+          "text": "PLAYLIST"
+        }
+      ]
+    },
+    "navigationEndpoint": {
+      "browseEndpoint": {
+        "browseEndpointContextSupportedConfigs": {
+          "browseEndpointContextMusicConfig": {
+            "pageType": "MUSIC_PAGE_TYPE_PLAYLIST"
+          }
+        },
+        "browseId": "VLRDCLAK5uy_l0NNK9-Z-5g0Lkf-TpctvuwqSxLByMnN4",
+        "params": "ggMNWgtocXFrR3haMV84SQ%3D%3D"
+      },
+      "clickTrackingParams": "CAwQzkEYACITCLyn3fL52pYDFY6QwgEdj1QFVTIHZy10b3BpY8oBBPK6kVI="
+    },
+    "playlistId": "RDCLAK5uy_l0NNK9-Z-5g0Lkf-TpctvuwqSxLByMnN4",
+    "secondaryNavigationEndpoint": {
+      "clickTrackingParams": "CAwQzkEYACITCLyn3fL52pYDFY6QwgEdj1QFVTIHZy10b3BpY1oORkV0b3BpY3NfbXVzaWOaAQcQw9QFGI4DygEE8rqRUg==",
+      "watchEndpoint": {
+        "loggingContext": {
+          "vssLoggingContext": {
+            "serializedContextData": "GitSRENMQUs1dXlfbDBOTks5LVotNWcwTGtmLVRwY3R2dXdxU3hMQnlNbk40"
+          }
+        },
+        "params": "OALAAQE%3D",
+        "playlistId": "RDCLAK5uy_l0NNK9-Z-5g0Lkf-TpctvuwqSxLByMnN4",
+        "videoId": "g8XiNKsKyVk"
+      }
+    },
+    "thumbnail": {
+      "darkColorPalette": {
+        "iconDisabledColor": 6310228,
+        "iconInactiveColor": 9664132,
+        "section2Color": 3349286
+      },
+      "sampledThumbnailColor": {
+        "blue": 77,
+        "green": 54,
+        "red": 101
+      },
+      "thumbnails": [
+        {
+          "height": 180,
+          "url": "https://i.ytimg.com/vi/hqqkGxZ1_8I/hqdefault.jpg?sqp=-oaymwExCMACELQBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYciA9KFcwDw==&rs=AOn4CLBhVpS3iU-7Up-q3JWkAHD_32KuCQ",
+          "width": 320
+        }
+      ],
+      "vibrantColorPalette": {
+        "iconInactiveColor": 10054529
+      }
+    },
+    "thumbnailText": {
+      "runs": [
+        {
+          "bold": true,
+          "text": "5"
+        },
+        {
+          "text": " videos"
+        }
+      ]
+    },
+    "title": {
+      "runs": [
+        {
+          "text": "RADIO PLAYLIST"
+        }
+      ]
+    },
+    "trackingParams": "CAwQzkEYACITCLyn3fL52pYDFY6QwgEdj1QFVQ==",
+    "videoCountShortText": {
+      "runs": [
+        {
+          "text": "5"
+        }
+      ]
+    },
+    "videoCountText": {
+      "runs": [
+        {
+          "text": "5 videos"
+        }
+      ]
+    }
+  }
+},{
+                                                        "livingRoomContentBundleRenderer":{
+                                                           "channelId":"FEwhat_to_watch",
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":88,
+                                                                    "height":88
+                                                                 },
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/default_bg.png",
+                                                                    "width":176,
+                                                                    "height":176
+                                                                 }
+                                                              ]
+                                                           },
+                                                           
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"SHOW TITLE"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
