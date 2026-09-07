@@ -1,0 +1,148 @@
+{
+    "contents": {
+        "tvBrowseRenderer": {
+            "content": {
+                "tvSurfaceContentRenderer": {
+                    "content": {
+                        "sectionListRenderer": {
+                            "contents": [
+                                {
+                                    "shelfRenderer": {
+                                        "title": {
+                                            "runs": [
+                                                {
+                                                    "text": ""
+                                                }
+                                            ]
+                                        },
+                                        "content": {
+                                            "horizontalListRenderer": {
+                                                "items": [
+                                                    {
+                                                        "genericPromoRenderer": {
+                                                            "title": {
+                                                                "runs": [
+                                                                    {   
+                                                                        "bold":true,
+                                                                        "text": "Welcome to the TV49 Public Beta!"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "backgroundStyle": "https://tv49.pages.dev/elo2-bg-slomo-v3.jpg",
+                                                            "menu": {
+                                                                "menuRenderer": {
+                                                                    "trackingParams": "sigeon",
+                                                                    "items": []
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "shelfRenderer": {
+                                        "title": {
+                                            "runs": [
+                                                {
+                                                    "text": "Topics"
+                                                }
+                                            ]
+                                        },
+                                        "content": {
+                                            "horizontalListRenderer": {
+                                                "items": [
+                                                    {
+                                                        "topicRenderer":{
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv36.pages.dev/assets/img/bg15.jpg",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEwhat_to_watch"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"What To Watch"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "topicRenderer":{
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://yt3.googleusercontent.com/O8BqVDxObowwIxIUZ-zasxcwYQy--QkcTSGmqWJmbVst31swowOIvDMEoK-meDFj_i6mI9z01w=w1920",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEtopics_music"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"Music"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     },{
+                                                        "topicRenderer":{
+                                                           "thumbnail":{
+                                                              "thumbnails":[
+                                                                 {
+                                                                    "url":"https://tv49.pages.dev/elo2-bg-slomo-v3.jpg",
+                                                                    "width":48,
+                                                                    "height":48
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "navigationEndpoint":{
+                                                              "clickTrackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g==",
+                                                              "browseEndpoint":{
+                                                                 "browseId":"FEsprint"
+                                                              }
+                                                           },
+                                                           "title":{
+                                                              "runs":[
+                                                                 {
+                                                                    "text":"Sprint Ads"
+                                                                 }
+                                                              ]
+                                                           },
+                                                           "trackingParams":"CBYQlTUYBCITCMGSzriaguECFddATAgdB1AO4g=="
+                                                        }
+                                                     }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
